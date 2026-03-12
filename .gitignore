@@ -1,0 +1,12 @@
+New-Item .gitignore -Force
+```
+
+Open `.gitignore` in VS Code and paste this:
+```
+venv/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+.DS_Store
+node_modules/
